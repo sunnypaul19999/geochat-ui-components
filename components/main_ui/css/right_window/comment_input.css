@@ -1,0 +1,26 @@
+.component-comment-input {
+    z-index: 10;
+}
+
+#cancelCommentInput {
+    color: red;
+    cursor: pointer;
+}
+
+#sendComment {
+    color: rgb(25, 26, 23);
+    background-color: rgb(117, 223, 18);
+    cursor: pointer;
+}
+
+.comment-input>.form-control {
+    border-width: 2px;
+    border-color: rgba(97, 97, 226, 0.55);
+    box-shadow: 10px 16px 46px 9px rgba(97, 97, 226, 0.55);
+}
+
+input[name="commentInput"] {
+    width: 100%;
+    border: hidden;
+    outline: none;
+}

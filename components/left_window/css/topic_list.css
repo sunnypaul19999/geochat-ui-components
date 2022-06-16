@@ -1,0 +1,25 @@
+.component-sub-topic-list-window {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.component-sub-topic-list-window>.list {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.component-sub-topic-list-window .card>.card-body {
+    width: 100%;
+    background-color: rgb(233, 247, 244);
+    cursor: pointer;
+}
+
+.component-sub-topic-list-window .card-body>p {
+    text-align: left;
+}

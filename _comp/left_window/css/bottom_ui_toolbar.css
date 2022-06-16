@@ -1,0 +1,26 @@
+.component-bottom-ui-toolbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 10;
+}
+
+.component-bottom-ui-toolbar>.hstack {
+    flex-shrink: 1;
+    background-color: rgb(180, 219, 226);
+    color: blue;
+    border: solid;
+    align-content: flex-start;
+}
+
+.forward-button,
+.create-button,
+.backward-button {
+    cursor: pointer;
+}
+/*
+.component-bottom-ui-toolbar .create-button:hover .material-icons{
+    transform: rotateZ(45deg);
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+}*/

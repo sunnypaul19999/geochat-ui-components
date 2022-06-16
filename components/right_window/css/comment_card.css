@@ -1,0 +1,26 @@
+.comment-window {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.component-comment-card>.card {
+    background-color: rgb(231, 240, 231);
+}
+
+.profile-picture img {
+    width: 40px;
+    height: 40px;
+}
+
+.comment-button {
+    cursor: pointer;
+}
+
+.like-button-off,
+.dislike-button-off,
+.like-button-on,
+.dislike-button-on {
+    display: flex;
+    cursor: pointer;
+}
